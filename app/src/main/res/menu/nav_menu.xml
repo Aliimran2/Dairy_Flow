@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item android:title="Suppliers"
+        android:id="@+id/supplierFragment"/>
+    <item android:title="Collectors"
+        android:id="@+id/collectorFragment"/>
+    <item android:title="Expenses"
+        android:id="@+id/expenseFragment"/>
+    <item android:title="Summary"
+        android:id="@+id/summaryFragment"/>
+</menu>
