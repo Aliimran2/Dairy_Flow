@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:id="@+id/supplierFragment"
+        android:icon="@drawable/suppliers_ic"
+        android:title="Suppliers" />
+    <item
+        android:id="@+id/collectorFragment"
+        android:icon="@drawable/collecoters_ic2"
+        android:title="Collectors" />
+    <item
+        android:id="@+id/expenseFragment"
+        android:icon="@drawable/expenses_ic"
+        android:title="Expenses" />
+    <item
+        android:id="@+id/summaryFragment"
+        android:icon="@drawable/summary_ic"
+        android:title="Summary" />
+</menu>

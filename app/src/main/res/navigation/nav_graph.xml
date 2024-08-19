@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/supplierFragment">
+
+    <fragment
+        android:id="@+id/collectorFragment"
+        android:name="com.example.dairyflow.fragments.CollectorFragment"
+        android:label="Collector"
+        tools:layout="@layout/fragment_collector" />
+    <fragment
+        android:id="@+id/supplierFragment"
+        android:name="com.example.dairyflow.fragments.SupplierFragment"
+        android:label="Supplier"
+        tools:layout="@layout/fragment_supplier" />
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="com.example.dairyflow.fragments.SummaryFragment"
+        android:label="Summary"
+        tools:layout="@layout/fragment_summary" />
+    <fragment
+        android:id="@+id/expenseFragment"
+        android:name="com.example.dairyflow.fragments.ExpenseFragment"
+        android:label="Expense"
+        tools:layout="@layout/fragment_expense" />
+</navigation>
